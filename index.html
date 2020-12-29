@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>Ciclic</title>
+</head>
+<body>
+    
+    <section style="margin-bottom:10px ;">
+       <div>
+           <h1> Ciclic </h1>
+           <section class="total">
+               <section class="firstCel moldura">
+                   <div class="dock">
+                       <div class="sensor"></div>
+                       <div class="speaker"></div>
+                       <div class="camera"></div>
+                   </div>
+                   <div class="tela">
+                       <h2>Simulador</h2>
+                       <div class="">
+                           <label for="formFile" class="form-label formName">Nome</label>
+                           <input class="form-control name" type="text" id="nameForm">
+                       </div>
+                       <div class="">
+                           <label for="formFileMultiple" class="form-label formMensalidade">Mensalidade</label>
+                           <input class="form-control mensalidade" type="number" id="mensalidade" multiple>
+                       </div>
+                       <select class="dropdown " id="selctInput" style="width:50px;height: 40px;">
+                           <option class="dropdown-item">1</option>
+                           <option class="dropdown-item">2</option>
+                           <option class="dropdown-item">3</option>
+                           <option class="dropdown-item">4</option>               
+                       </select>
+                       <button class="btn btn-primary "> Simular </button>
+
+                   </div>
+                   <div class="dock">
+                        <div class="circulo"></div>
+                    </div>
+                   
+               </section>
+               <section class="moldura">
+                    <div class="dock">
+                        <div class="sensor"></div>
+                        <div class="speaker"></div>
+                        <div class="camera"></div>
+                    </div>
+                    <div class="tela">
+                        <h2>Resultado</h2>
+                        <div id="resultados"></div>
+                        <button class="btn btn-primary again"> Simular den ovo </button>
+
+                    </div>
+                    <div class="dock">
+                        <div class="circulo"></div>
+                    </div>
+                   
+               </section>
+           </section>
+       </div> 
+    </section>
+
+
+    <footer>
+        @MuriloAlves mbalves1@outlook.com
+    </footer>
+</body>
+
+
+
+<!-- script do index -->
+<script src="./script/index.js"></script>
+
+<!-- js do bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>

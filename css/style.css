@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.total{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.moldura{
+    border:4px solid black;
+    padding: 2rem 0.75rem 4rem;
+    border-radius: 50px;
+    height: 40rem;
+    width: 36rem;
+   
+}
+
+.firstCel{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h2{
+    border-bottom: 4px solid black;
+    padding-bottom: 1.25rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tela{
+    border:4px solid black;
+    height: 30rem;
+    width: 100%;
+    padding:0 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/*
+*/
+
+.dock { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 30px;
+    padding: -5px 5px 0 5px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .dock .sensor, .dock .camera {
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border-radius: 50%;
+    margin: 0 3px 14px 3px;
+  }
+  
+  .dock .speaker {
+    width: 60px;
+    height: 8px;
+    background: #000;
+    border-radius: 7px;
+    margin: 0 5px 17px 5px;
+  }
+
+
+/** Header ***/
+
+h1 {
+    height: 1.75em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-color: rgb(192, 183, 183);
+}
+
+/***Circulo**/
+
+.dock .circulo{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    border-radius: 50%;
+    margin: 10px 5px -45px 5px;
+
+}
+
+/**footer**/
+
+footer{
+    height: 5.75em;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background:rgb(192, 183, 183);
+    
+}
